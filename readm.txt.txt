@@ -1,0 +1,28 @@
+site reactnavigation.org/docs/
+
+//desinstala
+npm uninstall -g expo-cli && npm i -g expo-cli
+
+//instala react native
+npm install -g react-native-cli
+
+//instalar esse pacote para utilizar a navegação;
+npm install @react-navigation/native 
+
+//instalação quando esstiver utilzando expo
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+//instalação do pacote de navegação por botoes
+npm install @react-navigation/stack
+
+// isntala pacotes de layout
+expo install expo-constants
+
+// pacote para envio de email
+expo install expo-mail-composer
+
+// comunicação com api
+npm install axios
+
+// pacote de internacionalização , para formatar valores tanto ios quanto android
+npm install intl
